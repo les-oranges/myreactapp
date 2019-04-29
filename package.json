@@ -1,0 +1,27 @@
+{
+  "name": "testreact",
+  "version": "1.0.0",
+  "description": "In the project directory, you can run:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    // "build": "webpack --config ./webpack.config.js",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/les-oranges/myreactapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/les-oranges/myreactapp/issues"
+  },
+  "homepage": "https://github.com/les-oranges/myreactapp#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
